@@ -1,7 +1,6 @@
 <!DOCclass html>
 <html lang="en">
   <head>
-    <title>KALKULATOR</title>
     <script>
       function insert(num){
         document.form.textview.value = document.form.textview.value+num;
@@ -28,7 +27,8 @@
       .button {
         width: 50;
         height: 50;
-        font-size: 25;
+        font-size: 25;        
+        font-weight: bold;
         margin: 2;
         cursor: pointer;
         background: #a2508c36;
@@ -54,6 +54,7 @@
   <body>
     <div class="bg"></div>
     <div class="main">
+      <h1>KALKULATOR</h1>
       <form name="form">
         <input class="textview" name="textview" />
       </form>
